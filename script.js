@@ -78,3 +78,4 @@ function printGoals(...playerNames) {
 printGoals(...players);
 
 // No 7
+team1 > team2 ? console.log("team 2 Wins") : console.log("team 1 Wins");
