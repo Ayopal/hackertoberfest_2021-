@@ -68,5 +68,13 @@ const { team1, x: draw, team2 } = game.odds;
 // console.log([team1, draw, team2]);
 
 //No 6
+const players = game.scored;
+
+function printGoals(...playerNames) {
+	// console.log(
+	// 	`${playerNames} scored and ${playerNames.length} goals were scored`
+	// );
+}
+printGoals(...players);
 
 // No 7
