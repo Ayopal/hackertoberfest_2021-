@@ -54,8 +54,13 @@ const [gk, ...fieldPlayers] = players1;
 // console.log([gk, fieldPlayers]);
 
 // No 3
+const allPlayers = [...players1, ...players2];
+// console.log(allPlayers);
 
-// N0 4 Create function for goals scored
+// N0 4
+const playersFinal = [...players1, "Thiago", "Coutinho", "perisic"];
+// console.log(playersFinal);
+
 
 //No 5
 
