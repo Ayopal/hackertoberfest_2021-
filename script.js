@@ -46,8 +46,12 @@ const game = {
 
 //Creating Player Array for each team
 //  No 1
+const [players1, players2] = game.players;
+// console.log([players1, players2]);
 
 // N0 2
+const [gk, ...fieldPlayers] = players1;
+// console.log([gk, fieldPlayers]);
 
 // No 3
 
